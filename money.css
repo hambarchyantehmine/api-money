@@ -1,0 +1,65 @@
+body {
+    background-image: url(money.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxMoney {
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.123);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input1 {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#input2 {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+select {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
